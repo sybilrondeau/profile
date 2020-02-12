@@ -49,6 +49,18 @@ p {
   margin: 50px 50px;
 }
 
+#p-white-background {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+#p-little-size {
+  font-size: 10px;
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   text-align: center;
@@ -90,6 +102,7 @@ i {
 #border-btn {
   border: 1px solid #952525;
   padding: 10px;
+  border-radius: 5px;
 }
 
 @media (max-width: 960px) {
