@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:300|Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Raleway:500&display=swap');
 
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #333333;
-  background-color: #F2f2f2;
+  background-color: white;
 }
 
 h1, h2 {
@@ -19,6 +19,16 @@ h2 {
   font-size: 25px;
 }
 
+.container {
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-image: url("images/illustrations_sybil_ligne_noir_WEB.png");
+  background-size: cover;
+}
+
 a {
   color: #952525;
   background-color: white;
@@ -29,6 +39,10 @@ a:hover, i:hover {
   color: white;
   background-color: #952525;
   text-decoration: none;
+}
+
+#insta-gris{
+  color: gray;
 }
 
 p {
@@ -53,20 +67,11 @@ i {
   padding: 10px;
 }
 
-.container {
-  width: 700px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .card {
   margin-bottom: 20px;
-  padding: 50px 50px;
+  padding: 50px 0px;
   border: 1px solid #e5e5e5;
-  background-color: white;
-  box-shadow: 10px 5px 20px #e5e5e5;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
   border-radius: 5px;
 }
 
